@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global body styling */
+@layer base {
+  body {
+    @apply bg-gradient-to-b from-blue-50 via-purple-50 to-pink-50 text-gray-900;
+  }
+}
