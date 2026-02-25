@@ -10,7 +10,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaInstagram,
-  FaFacebook,
   FaEnvelope,
   FaDownload,
   FaPaperPlane,
@@ -23,21 +22,14 @@ import {
   SiTypescript,
   SiTailwindcss,
   SiFirebase,
-  SiSupabase,
   SiFigma,
   SiNextdotjs,
   SiPython,
 } from "react-icons/si";
 import { HiSparkles, HiArrowNarrowRight } from "react-icons/hi";
 
-// ASSETS
 import MyPhoto from "../assets/myphoto.jpg";
 import ResumePDF from "../assets/Yokisha_Poudel_Resume.pdf";
-
-/* -------------------------------------------------------------------------- */
-/*                                  DATA                                      */
-/* -------------------------------------------------------------------------- */
-
 const roles = ["Frontend Architect", "Software Engineer", "UI/UX Visionary"];
 
 const techStack = [
@@ -56,7 +48,7 @@ const timeline = [
     year: "Nov 2025 – Feb 2026",
     title: "Frontend Engineer (Intern)",
     org: "Midas Health Services",
-    desc: "I didn't just write code; I built digital tools for healthcare heroes. I architected high-performance interfaces using React and TypeScript, focusing on reducing friction in medical workflows and ensuring patient data was both accessible and secure.",
+    desc: "I didn't just write code; I built digital tools for Hospitals. I architected high-performance interfaces using React and TypeScript, focusing on reducing friction in medical workflows and ensuring patient data was both accessible and secure.",
   },
   {
     year: "2022 – 2026",
